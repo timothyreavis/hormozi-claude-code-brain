@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hormozi Brain"
+  short_description: "Apply Hormozi playbooks to business decisions"
+  default_prompt: "Use $hormozi-brain to examine my offer and recommend one practical test using the relevant playbooks."

@@ -1,5 +1,25 @@
 # The Hormozi Brain Toolkit for Claude Code
 
+## Native Codex skill
+
+This fork adds `$hormozi-brain` while retaining the upstream playbooks, prompts, transcripts, and Claude Code setup. The native entrypoint is `SKILL.md`; it loads only the resources relevant to your request.
+
+Clone this fork to a durable folder, then link it into Codex's user skill directory:
+
+```sh
+git clone https://github.com/timothyreavis/hormozi-claude-code-brain.git ~/dev/hormozi-claude-code-brain
+mkdir -p ~/.agents/skills
+ln -s ~/dev/hormozi-claude-code-brain ~/.agents/skills/hormozi-brain
+```
+
+If the destination already exists, inspect it and back it up before replacing it. Use one install location to avoid duplicate skill entries. Do not link a temporary worktree that will later be removed. Codex supports [symlinked skill folders](https://learn.chatgpt.com/docs/build-skills).
+
+Start a fresh Codex session and invoke `$hormozi-brain` from any project. No compiled document, project switch, or manual CLAUDE.md instruction is needed. The existing project hooks are not installed globally.
+
+Before an update, check that the checkout is clean, fetch the fork, inspect the exact change, and fast-forward to the reviewed revision. The link uses that checkout directly. To uninstall, remove only the `~/.agents/skills/hormozi-brain` symlink; the source checkout remains intact.
+
+Upstream source: `antonio-clicktoclose/hormozi-claude-code-brain`, reviewed at `3167733e566504a717b8051c176c730e02271f69` on September 12, 2026. The native wrapper is maintained in this fork. The reference collection remains unchanged.
+
 **Turn Claude Code into your personal Alex Hormozi business advisor. For free.**
 
 Hormozi's ACQ AI costs $3,000 + $299/month. This repo gives you the same firepower inside Claude Code: his $100M playbooks, scaling frameworks, closing scripts, and copywriting systems, all wired up so Claude can actually use them to run your business.

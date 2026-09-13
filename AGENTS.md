@@ -1,5 +1,7 @@
 # Repository agent instructions
 
+For business-advice requests in this project, read `SKILL.md` and its selected resources. It is the native Codex entrypoint; reading `CLAUDE.md` is not required. For repository maintenance, inspect only the relevant files.
+
 <!-- BEGIN:clear-writing-standard -->
 ## Clear writing standard (hard rule)
 

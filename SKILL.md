@@ -13,6 +13,7 @@ All paths below are relative to this skill's directory, not the current working 
 | --- | --- | --- |
 | Offer or pricing | Pricing; Fast Cash only for a bounded promotion | `prompts/01-grand-slam-offer-builder.md` |
 | Sales call or objections | Closing | `prompts/02-sales-script-generator.md` |
+| Lead generation or outreach | Marketing Machine; Lead Nurture when follow-up is involved | None required |
 | Follow-up or booking | Lead Nurture | `prompts/03-lead-nurture-sequence.md` |
 | Price increase | Price Raise; Proof Checklist | `prompts/04-price-raise-playbook.md` |
 | Ads or hooks | GOATed Ads; Hooks | `prompts/05-ad-hook-generator.md` |
